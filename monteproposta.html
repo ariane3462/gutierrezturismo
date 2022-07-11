@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide com css</title>
+
+      
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="novomenu.css">
+    <link rel="stylesheet" href="forms.css">
+
+   
+</head>
+<body>
+  
+
+<form method="post" id="fContato" action="mailto:gutiturismo@gmail.com"> 
+ <fieldset id="Ciente"> <legend> Identificação do Cliente</legend> 
+
+    <p><label for="cNome">Nome:</label>   <input type="text" name="tNome" id="cNome" size="20" maxlength="40" placeholder="Nome Completo"/> </p>
+
+    <p> Senha: <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
+
+    <p> Email: <input type="email" name="tMail" id="cNome" size="20" maxlength="30" placeholder="Digite seu email"/></p>
+
+ <fieldset id="sexo"> <legend> Sexo:</legend>   
+        <input type="radio" name="tsexo" id="cMasc"/> <label for="cMasc">Maculino</label><br> 
+        <input type="radio" name="tsexo" id="cFem"/> <label for="cFem">Feminino</label>  
+    </fieldset>
+    <p> Data de Nascimento:<input type="date" name="tNasc" id="cNasc"/></fieldset>
+
+<fieldset id="Endereco"> <legend>Endereço do Cliente</legend>
+    
+    <p>Logradouro: <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av., Travessa"/>
+    
+     
+    
+     <p><label for="cCid"> Cidade:</label></p>
+     <input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua cidade"/> </p>
+     
+    </fieldset> 
+   
+ <fieldset id="Contato do Cliente"> <legend>Contato do Cliente</legend>
+
+    <p>Telefone: <input type="tel" name="tTel" id="cTel" size="11" maxlength="11" placeholder="(DDD) + número"/><br><br>
+
+<legend>Mensagem do cliente</legend>
+<p><label for="cMsg">Mensagem</p></label>
+<textarea name="tMsg" id="Cmsg" cols="45" rows="5" placeholder="Deixe aqui a sua mensagem">
+</textarea> <br> 
+
+<input type="submit" value="Enviar"/>
+
+  
+</body>
+</form>
+</fieldset>
+
+
+
+<body>
+    
+
+    <div class="slider">
+        <div class="slides">
+            <!--Radio buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <!--fim radio buttons-->
+
+            <!--Slide imagens-->
+            <div class= "slide first">
+                <img src="imagens/foto1.jpg"/>
+            </div>
+
+            <div class= "slide">
+                <img src="imagens/foto2.jpg"/>
+            </div>
+
+            <div class= "slide">
+                <img src="imagens/foto3.jpg"/>
+            </div>
+
+            <div class= "slide">
+                <img src="imagens/imagem1.jpg"/>
+            </div>
+            <!--fim imagens-->
+
+            <!--Inicio navegação-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            </div>            
+            </div>  
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+        </div> 
+    </div>      
+
+                
+  
+    <script src="slide.js"></script>
+
+
+    </h1>
+    
+    
+</body>
+<footer>
+    <p>
+        <hr>                
+
+        © Ariane Gutierrez, 2022.
+        
+    </p> 
+    <p>
+        <p><a href="index.html" rel="prev">voltar para MENU</a></p> 
+    </p>   
+</footer>
+    <link rel="stylesheet" href="style.css"> 
+
+
+
+</html>

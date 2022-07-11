@@ -1,0 +1,81 @@
+@charset "UTF-8";
+       
+        head{
+            margin-top: 0;
+            text-align: center;
+
+        }
+        
+        body {
+            background-color: #e6c2bf;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            text-align: center;
+        
+            
+        }
+        h1{
+            color: rgb(255, 255, 255);
+            background-color: #1a5785;
+            text-align:center;
+            margin-top:0;
+            
+            
+            
+        }
+
+      figure {
+        text-align:center;
+        margin-top:-125vh;
+   
+            
+      }    
+        
+
+        h2 {
+            margin-top: px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            text-align: justify;
+            margin-left: 10%;
+            margin-right:10%;
+        }
+
+        h3 {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            text-align: center;
+        }
+
+        
+
+        footer {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 12px;
+            text-align: center;
+        }
+        
+        h4 {
+
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            text-align:justify;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 5%;
+        }
+
+        footer{
+            margin-left: 0;
+            margin-right:10%;
+            margin-top: 5%; 
+            text-align:center;
+            margin-top:125vh;
+        }
+
+    
+   
